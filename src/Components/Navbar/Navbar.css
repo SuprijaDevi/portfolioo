@@ -22,11 +22,13 @@ ul {
 ul li {
     display: inline-block;
     margin: 10px 20px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
     color: #fff;
     font-family:'Trebuchet MS';
+    transition: box-shadow 0.3s ease-in-out;
 }
 ul li:hover {
-    color:darkcyan;
+    /* color:crimson; */
+    box-shadow: 0 5px crimson;
 }
