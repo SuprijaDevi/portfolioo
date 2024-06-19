@@ -29,6 +29,6 @@ ul li {
     transition: box-shadow 0.3s ease-in-out;
 }
 ul li:hover {
-    /* color:crimson; */
-    box-shadow: 0 5px crimson;
+    color:crimson;
+    box-shadow: 0 4px;
 }

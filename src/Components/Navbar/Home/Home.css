@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;  */
+}
+.gif-image {
+    max-width: 100%; 
+    height: auto;
+}
+h2 {
+    color: white;
+}
+  
