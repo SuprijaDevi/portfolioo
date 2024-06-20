@@ -2,13 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh;  */
+    padding: 20px;
 }
 .gif-image {
-    max-width: 100%; 
+    max-width: 150%; 
     height: auto;
 }
-h2 {
-    color: white;
+.animated-typing {
+    font-family: 'cursive'; 
+    font-size: 3.5em;
+    background: linear-gradient(90deg, #FFF5E1, #FF6969, #dc2757, #2450ef);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
 }
-  
