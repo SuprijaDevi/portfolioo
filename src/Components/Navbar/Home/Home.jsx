@@ -10,7 +10,7 @@ const Home = () => {
       <div className='animated-typing'>
         <ReactTyped
           strings={[
-            "I'm Suprija Devi",
+            "I'm SUPRIJA DEVI S",
             "I'm a Frontend Developer.",
             "I'm an Enthusiastic Learner.",
           ]}

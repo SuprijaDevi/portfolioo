@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from 'E:/portfolioo/src/Components/Navbar/About/SUPRIJA DEVI S RESUME.pdf';
 import './About.css';
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
         <div className='img-box'>
           <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgtmS_THpd3b4YgklDGLB5rg66788rRKk97sNee5YoiAwL4JoiPq_IHcgkIrr8CpgNdIY&usqp=CAU' alt='about img' />
           <div className='resume-box'>
-            <a href='src\assets\SUPRIJA DEVI S RESUME.pdf' download>My Resume</a>
+            <a href={Resume} download>My Resume</a>
           </div>
         </div>
         <div className='about-text'>
