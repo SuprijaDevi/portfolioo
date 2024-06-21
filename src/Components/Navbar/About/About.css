@@ -1,2 +1,95 @@
-
-  
+.about {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.293);
+}
+.section-title h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    /* color: white; */
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.img-box {
+    flex: 1;
+    text-align: right;
+    margin-bottom: 110px;
+}
+.about-text {
+    /* flex: 1; */
+    text-align: left;
+}
+.about-text p {
+    margin: 0;
+    font-family: 'Courier New';
+    margin-top: 30px;
+    color: white;
+    font-size: large;
+}
+.about-text h3 {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    margin: 20px 0;
+}
+.about-text .skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-text .skill-item {
+    background-color: rgba(128, 128, 128, 0.289);
+    border: 1px solid white;
+    padding: 5px 15px;
+    margin: 0 20px 20px 0;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-family: Verdana;
+    color: white;
+}
+.about-text .practice {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-text .practice-item {
+    background-color: rgba(128, 128, 128, 0.289);
+    border: 1px solid white;
+    padding: 15px 15px;
+    margin: 0 20px 20px 0;
+    border-radius: 8px;
+}
+.practice-item a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #0d0c1d;
+}
+.resume-box {
+    margin-top: 10px;
+    margin-right: 50px;
+    background-color: rgba(128, 128, 128, 0.289);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid white;
+}
+.resume-box a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color: #0d0c1d;
+}

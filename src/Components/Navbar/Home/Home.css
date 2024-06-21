@@ -9,7 +9,7 @@
     height: auto;
 }
 .animated-typing {
-    font-family: 'cursive'; 
+    font-family: 'Courier New'; 
     font-size: 3.5em;
     background: linear-gradient(90deg, #FFF5E1, #FF6969, #dc2757, #2450ef);
     background-clip: text;
