@@ -12,7 +12,7 @@ const Home = () => {
           strings={[
             "I'm SUPRIJA DEVI S",
             "I'm a Frontend Developer.",
-            "I'm an Enthusiastic Learner.",
+            "I love coding.",
           ]}
           typeSpeed={100}
           backSpeed={60}
