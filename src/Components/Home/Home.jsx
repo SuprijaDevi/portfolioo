@@ -1,7 +1,7 @@
 import React from 'react'
-import { ReactTyped } from 'react-typed';
-import Sphere from 'E:/portfolioo/src/assets/1-unscreen.gif';
-import './Home.css';
+import { ReactTyped } from 'react-typed'
+import Sphere from 'E:/portfolioo/src/assets/1-unscreen.gif'
+import './Home.css'
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <div className='animated-typing'>
         <ReactTyped
           strings={[
-            "I'm SUPRIJA DEVI S",
+            "I'm SUPRIJA DEVI ",
             "I'm a Frontend Developer.",
             "I love coding.",
           ]}
@@ -23,4 +23,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default Home

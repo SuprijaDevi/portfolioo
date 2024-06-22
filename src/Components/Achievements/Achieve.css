@@ -1,0 +1,16 @@
+.achieve {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.293);
+    margin-bottom: 70px;
+}
+.achieve-title h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 40px;
+}

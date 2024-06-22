@@ -1,8 +1,9 @@
-import './App.css';
-import About from './Components/Navbar/About/About';
-import Home from './Components/Navbar/Home/Home';
-import Navbar from './Components/Navbar/Navbar';
-import Projects from './Components/Navbar/Projects/Projects'
+import './App.css'
+import About from './Components/About/About'
+import Achieve from './Components/Achievements/Achieve'
+import Home from './Components/Home/Home'
+import Navbar from './Components/Navbar/Navbar'
+import Projects from './Components/Projects/Projects'
 function App() {
   return (
     <div className="App">
@@ -10,8 +11,9 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Achieve />
     </div>
   );
 }
 
-export default App;
+export default App
