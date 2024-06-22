@@ -1,9 +1,42 @@
 .project {
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.293);
+    margin-bottom: 70px;
+}
+.project-title h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 40px;
+}
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 60px;
+}
+.project-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 200;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.792);
+}
+.project-popup.open {
+    visibility: visible;
+    overflow-y: auto;
+}
+.git-link {
+    color: black;
+}
+.git-link:hover {
+    color: rgb(7, 7, 110);
 }

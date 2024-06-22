@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 .navbar {
     width: 90%;
@@ -14,6 +13,7 @@
     border-radius: 20px;
     margin: 20px auto;
     border: 1px solid white;
+    margin-bottom: 180px;
 }
 ul {
     flex: 1;

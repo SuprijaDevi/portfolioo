@@ -6,10 +6,9 @@ import Projects from './Components/Navbar/Projects/Projects'
 function App() {
   return (
     <div className="App">
-      <Navbar /><br></br><br></br>
-      <Home /><br></br><br></br>
+      <Navbar />
+      <Home />
       <About />
-      <br></br><br></br>
       <Projects />
     </div>
   );
