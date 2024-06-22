@@ -1,4 +1,5 @@
 import React from 'react'
+import My_Photo from 'E:/portfolioo/src/assets/my photo.jpg'; 
 import Resume from 'E:/portfolioo/src/Components/Navbar/About/SUPRIJA DEVI S RESUME.pdf';
 import './About.css';
 
@@ -10,7 +11,8 @@ const About = () => {
       </div>
       <div className='row'>
         <div className='img-box'>
-          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgtmS_THpd3b4YgklDGLB5rg66788rRKk97sNee5YoiAwL4JoiPq_IHcgkIrr8CpgNdIY&usqp=CAU' alt='about img' />
+          <img src={My_Photo} alt='about img'/>
+          <h3>SUPRIJA DEVI S</h3>
           <div className='resume-box'>
             <a href={Resume} download>My Resume</a>
           </div>
