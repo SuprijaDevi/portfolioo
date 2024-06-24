@@ -8,7 +8,12 @@ const Achieve = () => {
         <h2>Achievements</h2>
       </div>
       <div className='achieve-content'>
+        <div className='a-content1'>
         
+        </div>
+        <div className='a-content2'>
+        
+        </div>
       </div>
     </div>
   )
