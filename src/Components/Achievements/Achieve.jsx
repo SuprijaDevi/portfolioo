@@ -1,4 +1,6 @@
 import React from 'react'
+import Trophy from 'E:/portfolioo/src/assets/trophy.png'
+import Badge from 'E:/portfolioo/src/assets/badge.png'
 import './Achieve.css'
 
 const Achieve = () => {
@@ -9,10 +11,19 @@ const Achieve = () => {
       </div>
       <div className='achieve-content'>
         <div className='a-content1'>
-        
+          <img src={Trophy} alt='trophy'></img>
+          <h3>IIT BOMBAY MAPATHON-2023</h3>
+          <h4>WINNER</h4>
         </div>
         <div className='a-content2'>
-        
+          <img src={Badge} alt='badge'></img>
+          <h3>MSME WOMENS HACKATHON</h3>
+          <h4>FINALIST</h4>
+        </div>
+        <div className='a-content3'>
+          <img src={Badge} alt='badge'></img>
+          <h3>SMART INDIA HACKATHON</h3>
+          <h4>COLLEGE FINALIST</h4>
         </div>
       </div>
     </div>
