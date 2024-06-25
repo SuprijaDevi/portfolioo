@@ -1,29 +1,26 @@
 .contact {
     border: 2px solid white;
     border-radius: 10px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.118);
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
-
 .contact-content h2 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
-    color: black;
+    color: rgb(214, 205, 205);
     font-family: 'Trebuchet MS';
     margin-bottom: 40px;
 }
-
 .icons {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-
-.icons div {
+.icons a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +28,28 @@
     height: 40px;
     border: 1px solid white;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
     font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.linked-icon {
+    color: blue;
+    background-color: white;
+}
+.git-icon {
+    color: black;
+    background-color: white;
+}
+.mail-icon {
+    color: orangered;
+    background-color: white;
+}
+.insta-icon {
+    color: rgb(185, 10, 115);
+    background-color: white;
+}
+.icons a:hover {
+    color: white;
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
 }
