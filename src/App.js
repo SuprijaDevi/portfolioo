@@ -4,6 +4,8 @@ import Achieve from './Components/Achievements/Achieve'
 import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import Projects from './Components/Projects/Projects'
+import Contact from './Components/Contact/Contact'
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,7 @@ function App() {
       <About />
       <Projects />
       <Achieve />
+      <Contact />
     </div>
   );
 }
