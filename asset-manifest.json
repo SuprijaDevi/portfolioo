@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolioo/static/css/main.41328d9e.css",
+    "main.js": "/portfolioo/static/js/main.e798000a.js",
+    "static/js/453.3f14a77c.chunk.js": "/portfolioo/static/js/453.3f14a77c.chunk.js",
+    "static/media/online course .png": "/portfolioo/static/media/online course .b31fd0aac8d47bc50f19.png",
+    "static/media/1-unscreen.gif": "/portfolioo/static/media/1-unscreen.f9dce59f7bc59ba155cd.gif",
+    "static/media/ats.png": "/portfolioo/static/media/ats.7104d12baf3565e4bad1.png",
+    "static/media/samadhanmithra.png": "/portfolioo/static/media/samadhanmithra.906ce36c89404f75da71.png",
+    "static/media/SUPRIJA DEVI S RESUME.pdf": "/portfolioo/static/media/SUPRIJA DEVI S RESUME.5e142c112cba95e51a88.pdf",
+    "static/media/badge.png": "/portfolioo/static/media/badge.c4d9096150acaddb0997.png",
+    "static/media/trophy.png": "/portfolioo/static/media/trophy.483177d8eca1500faae7.png",
+    "index.html": "/portfolioo/index.html",
+    "main.41328d9e.css.map": "/portfolioo/static/css/main.41328d9e.css.map",
+    "main.e798000a.js.map": "/portfolioo/static/js/main.e798000a.js.map",
+    "453.3f14a77c.chunk.js.map": "/portfolioo/static/js/453.3f14a77c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41328d9e.css",
+    "static/js/main.e798000a.js"
+  ]
+}
