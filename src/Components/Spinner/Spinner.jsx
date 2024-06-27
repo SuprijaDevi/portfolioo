@@ -13,7 +13,7 @@ const Spinner = ({ setLoading }) => {
 
   return (
     <div className="spinner">
-        <h2>importing My_Portfolio.packages.* </h2>
+        <h2>import suprija.portfolio.* </h2>
         <PacmanLoader color='#2450ef' size={25} />
     </div>
   );
