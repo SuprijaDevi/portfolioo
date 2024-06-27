@@ -1,5 +1,4 @@
 .contact {
-    /* border: 2px solid white; */
     border-radius: 10px;
     width: 95%;
     margin: 0 auto;
@@ -8,6 +7,7 @@
     /* background-color: rgba(255, 255, 255, 0.118); */
     background-color: rgba(0, 0, 0, 0.473);
     margin-bottom: 10px;
+    box-shadow: 0 0 10px;
 }
 .contact-content h2 {
     /* text-transform: uppercase; */

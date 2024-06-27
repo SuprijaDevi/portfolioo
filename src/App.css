@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-image: linear-gradient(to bottom right, #000000, #14213d);
 }
@@ -9,7 +14,4 @@ body {
     height: 20px;
     background-color: rgba(255, 255, 255, 0.629);
     border-radius: 50%;
-    /* transform: translate(-50%, -50%); */
-    /* mix-blend-mode: difference; */
-    /* z-index: 9999; */
 }

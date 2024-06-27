@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .navbar {
     width: 90%;
     display: flex;
@@ -12,8 +7,9 @@
     padding: 15px 7%; 
     border-radius: 20px;
     margin: 20px auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin-bottom: 160px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.521);
 }
 ul {
     flex: 1;
