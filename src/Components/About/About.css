@@ -13,13 +13,13 @@
     text-transform: uppercase;
     text-align: center;
     font-family: 'Trebuchet MS';
-    /* color: white; */
 }
 .row {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    flex-direction: column; 
 }
 .img-box {
     flex: 1;
@@ -98,4 +98,37 @@ a:hover {
 }
 a:hover {
     color: #0d0c1d;
+}
+
+@media (min-width: 768px) {
+    .row {
+        flex-direction: row;
+    }
+    .img-box {
+        flex: 1;
+        text-align: right;
+        margin-bottom: 140px;
+    }
+    .about-text {
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-box {
+        margin-bottom: 20px; 
+        margin-top: 20px;
+    }
+    .resume-box {
+        margin-right: 54px;
+        margin-top: 10px;
+    }
+    .about-text p {
+        font-size: medium;
+        margin-top: 20px; 
+    }
+    .about-text .skill-item,
+    .about-text .practice-item {
+        margin: 0 5px 10px 0;
+    }
 }

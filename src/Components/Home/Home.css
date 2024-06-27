@@ -1,14 +1,19 @@
 .home {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin-bottom: 70px;
+    text-align: center; 
 }
+
 .gif-image {
-    max-width: 150%; 
+    max-width: 150%;
     height: auto;
+    margin-bottom: 20px; 
 }
+
 .animated-typing {
     font-family: 'Courier New'; 
     font-size: 3.5em;
@@ -16,4 +21,22 @@
     background-clip: text;
     color: transparent;
     display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .home {
+        flex-direction: row;
+    }
+    .animated-typing {
+        font-size: 3.5em; 
+    }
+}
+
+@media (max-width: 767px) {
+    .animated-typing {
+        font-size: 2.0em;
+    }
+    .gif-image {
+        max-width: 60%; 
+    }
 }

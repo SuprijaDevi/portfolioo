@@ -10,8 +10,6 @@ const Navbar = () => {
         <li>🗂️Projects</li>
         <li>📞Contact</li>
       </ul>
-
-      {/* <img src="" alt="theme" className="toggle-icon"></img> */}
     </div>
   )
 }

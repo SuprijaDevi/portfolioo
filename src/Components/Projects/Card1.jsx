@@ -64,7 +64,7 @@ export default function Card1() {
             This approach not only motivates legal experts to join but also ensures a high-quality
             and engaged community, benefiting both providers and clients.<br />
             CREATED - 12/2023<br />
-            Git Link - <a href='https://github.com/shrivignesh37/SAMADHANMITRA.git' alt='link' className='git-link' >https://github.com</a>
+            Git Link - <a href='https://github.com/SuprijaDevi' alt='link' className='git-link' >https://github.com</a>
             </Typography>
           </div><br />
           <Button size="small" color="primary" onClick={handleClose}>
