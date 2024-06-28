@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions, Box } from '@mui/material';
-import Samadhan from 'E:/portfolioo/src/assets/samadhanmithra.png';
+import Samadhan from '../../assets/samadhanmithra.png';
 import './Projects.css'; 
 
 const style = {

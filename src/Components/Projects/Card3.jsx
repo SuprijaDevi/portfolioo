@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions, Box } from '@mui/material';
-import Course from 'E:/portfolioo/src/assets/online course .png';
+import Course from '../../assets/online course .png';
 import './Projects.css';
 
 const style = {

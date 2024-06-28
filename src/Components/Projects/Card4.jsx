@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions, Box } from '@mui/material';
-import Chat from 'E:/portfolioo/src/assets/chatbot.png';
+import Chat from '../../assets/chatbot.png';
 import './Projects.css';
 
 const style = {

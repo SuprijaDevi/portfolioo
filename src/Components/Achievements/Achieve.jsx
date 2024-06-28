@@ -1,6 +1,6 @@
 import React from 'react'
-import Trophy from 'E:/portfolioo/src/assets/trophy.png'
-import Badge from 'E:/portfolioo/src/assets/badge.png'
+import Trophy from '../../assets/trophy.png'
+import Badge from '../../assets/badge.png'
 import './Achieve.css'
 
 const Achieve = () => {

@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions, Box } from '@mui/material';
-import ATS from 'E:/portfolioo/src/assets/ats.png';
+import ATS from '../../assets/ats.png';
 import './Projects.css';
 
 const style = {

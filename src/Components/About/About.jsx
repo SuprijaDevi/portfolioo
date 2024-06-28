@@ -1,6 +1,6 @@
 import React from 'react'
-import My_Photo from 'E:/portfolioo/src/assets/my photo.jpg'
-import Resume from 'E:/portfolioo/src/Components/About/SUPRIJA DEVI S RESUME.pdf'
+import My_Photo from '../../assets/my photo.jpg'
+import Resume from '../../assets/SUPRIJA DEVI S RESUME.pdf'
 import './About.css'
 
 const About = () => {
