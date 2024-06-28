@@ -40,3 +40,17 @@
 .git-link:hover {
     color: rgb(7, 7, 110);
 }
+
+@media (max-width: 768px) {
+    .project-cards {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0;
+    }
+    .project-cards > div {
+        width: 100%; 
+    }
+    .MuiBox-root {
+        width: 80%;
+    }
+}

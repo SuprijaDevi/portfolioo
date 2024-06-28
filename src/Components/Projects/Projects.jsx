@@ -7,7 +7,7 @@ import Card4 from './Card4'
 
 const Projects = () => {
   return (
-    <div className='project'>
+    <div className='project' id='projectt'>
       <div className='project-title'>
         <h2>My Works</h2>
       </div>

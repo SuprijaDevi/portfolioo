@@ -5,7 +5,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='homee'>
       <img src={Sphere} className="gif-image" alt="Animated sphere"></img>
       <div className='animated-typing'>
         <ReactTyped
