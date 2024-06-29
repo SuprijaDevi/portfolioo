@@ -4,16 +4,14 @@
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    /* background-color: rgba(255, 255, 255, 0.118); */
     background-color: rgba(0, 0, 0, 0.473);
     margin-bottom: 10px;
     box-shadow: 0 0 10px;
 }
 .contact-content h2 {
-    /* text-transform: uppercase; */
     text-align: center;
-    color: rgb(214, 205, 205);
-    font-family: 'Trebuchet MS';
+    color: rgb(228, 223, 223);
+    font-family: cursive;
     margin-bottom: 40px;
 }
 .icons {

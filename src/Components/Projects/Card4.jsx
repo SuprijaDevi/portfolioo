@@ -27,7 +27,7 @@ export default function Card4() {
 
   return (
     <div>
-      <Card sx={{ maxWidth: 345, backgroundColor: 'black', color: 'white', border: '2px solid white' }}>
+      <Card sx={{ maxWidth: 345, backgroundColor: '', color: 'black', border: '2px solid white' }}>
         <CardActionArea>
           <CardMedia
             component="img"

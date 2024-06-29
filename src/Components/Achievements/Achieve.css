@@ -1,5 +1,5 @@
 .achieve {
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
@@ -11,7 +11,7 @@
 .achieve-title h2 {
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Trebuchet MS';
+    font-family: cursive;
     margin-bottom: 40px;
 }
 .achieve-content {
@@ -31,7 +31,7 @@
     margin-left: 120px;
 }
 .achieve-content h3, h4{
-    color: white;
+    color: #5E1675;
     margin-left: 90px;
 }
 

@@ -7,7 +7,7 @@
     border-radius: 20px;
     margin: 20px auto;
     margin-bottom: 140px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.463);
+    box-shadow: 0 0 10px rgb(69, 69, 69);
 }
 ul {
     flex: 1;
@@ -19,9 +19,10 @@ ul li {
     margin: 10px 20px;
     font-size: 20px;
     cursor: pointer;
-    color: #fff;
-    font-family: 'Trebuchet MS';
+    color: #000;
+    font-family: cursive;
     transition: box-shadow 0.3s ease-in-out;
+    font-weight: bold;
 }
 ul li a {
     text-decoration: none;
@@ -29,8 +30,8 @@ ul li a {
 }
 ul li a:hover {
     text-decoration: none;
-    color: #0073e6;
-    box-shadow: 0 0 4px;
+    color: #6420AA;
+    box-shadow: 0  3px;
 }
 html {
     scroll-behavior: smooth;

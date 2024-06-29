@@ -1,5 +1,5 @@
 .about {
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
@@ -12,7 +12,7 @@
 .about-title h2 {
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Trebuchet MS';
+    font-family: cursive;
 }
 .row {
     display: flex;
@@ -27,8 +27,8 @@
     margin-bottom: 140px;
 }
 .img-box h3 {
-    color: #000;
     text-align: center;
+    font-family: cursive;
 }
 .about-text {
     /* flex: 1; */
@@ -38,12 +38,12 @@
     margin: 0;
     font-family: 'Courier New';
     margin-top: 30px;
-    color: white;
+    color: #5E1675;
     font-size: large;
 }
 .about-text h3 {
     text-transform: uppercase;
-    font-family: 'Trebuchet MS';
+    font-family: cursive;
     font-size: 20px;
     margin: 20px 0;
 }
@@ -52,29 +52,28 @@
     flex-wrap: wrap;
 }
 .about-text .skill-item {
-    background-color: rgba(128, 128, 128, 0.289);
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 5px 15px;
     margin: 0 20px 20px 0;
     border-radius: 8px;
     text-transform: uppercase;
     font-family: Verdana;
-    color: white;
+    color: #5E1675;
 }
 .about-text .practice {
     display: flex;
     flex-wrap: wrap;
 }
 .about-text .practice-item {
-    background-color: rgba(128, 128, 128, 0.289);
-    border: 1px solid white;
+    background-color: rgba(128, 128, 128, 0.093);
+    border: 2px solid white;
     padding: 15px 15px;
     margin: 0 20px 20px 0;
     border-radius: 8px;
 }
 .practice-item a {
     text-decoration: none;
-    color: white;
+    color: #5E1675;
     font-family: Verdana;
     text-transform: uppercase;
 }
@@ -84,16 +83,16 @@ a:hover {
 .resume-box {
     margin-top: 10px;
     margin-right: 55px;
-    background-color: rgba(128, 128, 128, 0.289);
+    background-color: rgba(128, 128, 128, 0.093);
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 .resume-box a {
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: #5E1675;
     font-weight: bold;
 }
 a:hover {

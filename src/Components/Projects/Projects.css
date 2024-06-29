@@ -1,5 +1,5 @@
 .project {
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 10px;
     width: 90%;
     margin: 0 auto;
@@ -11,7 +11,7 @@
 .project-title h2 {
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Trebuchet MS';
+    font-family: cursive;
     margin-bottom: 40px;
 }
 .project-cards {
@@ -38,7 +38,7 @@
     color: black;
 }
 .git-link:hover {
-    color: rgb(7, 7, 110);
+    color: #5E1675;
 }
 
 @media (max-width: 768px) {
