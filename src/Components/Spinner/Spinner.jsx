@@ -14,7 +14,7 @@ const Spinner = ({ setLoading }) => {
   return (
     <div className="spinner">
         <h2>import suprija.portfolio.* </h2>
-        <PacmanLoader color='#5E1675' size={25} />
+        <PacmanLoader color='#4b92f5' size={25} />
     </div>
   );
 };

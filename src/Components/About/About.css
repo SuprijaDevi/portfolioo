@@ -7,7 +7,6 @@
     text-align: center;
     background-color: rgba(255, 255, 255, 0.120);
     margin-bottom: 70px;
-
 }
 .about-title h2 {
     text-transform: uppercase;
@@ -29,6 +28,7 @@
 .img-box h3 {
     text-align: center;
     font-family: cursive;
+    color: #4b92f5;
 }
 .about-text {
     /* flex: 1; */
@@ -38,7 +38,7 @@
     margin: 0;
     font-family: 'Courier New';
     margin-top: 30px;
-    color: #5E1675;
+    color: #fff;
     font-size: large;
 }
 .about-text h3 {
@@ -52,13 +52,15 @@
     flex-wrap: wrap;
 }
 .about-text .skill-item {
+    background-color: rgba(128, 128, 128, 0.093);
     border: 2px solid white;
     padding: 5px 15px;
     margin: 0 20px 20px 0;
     border-radius: 8px;
     text-transform: uppercase;
     font-family: Verdana;
-    color: #5E1675;
+    color: #fff;
+    box-shadow: 0 0 3px white;
 }
 .about-text .practice {
     display: flex;
@@ -70,15 +72,16 @@
     padding: 15px 15px;
     margin: 0 20px 20px 0;
     border-radius: 8px;
+    box-shadow: 0 0 3px white;
 }
 .practice-item a {
     text-decoration: none;
-    color: #5E1675;
+    color: #fff;
     font-family: Verdana;
     text-transform: uppercase;
 }
 a:hover {
-    color: #0d0c1d;
+    color: #4b92f5;
 }
 .resume-box {
     margin-top: 10px;
@@ -88,15 +91,16 @@ a:hover {
     border-radius: 5px;
     display: inline-block;
     border: 2px solid white;
+    box-shadow: 0 0 2px white;
 }
 .resume-box a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #5E1675;
+    color: #fff;
     font-weight: bold;
 }
 a:hover {
-    color: #0d0c1d;
+    color: #4b92f5;
 }
 
 @media (min-width: 768px) {

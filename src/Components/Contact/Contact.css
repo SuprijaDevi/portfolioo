@@ -10,7 +10,7 @@
 }
 .contact-content h2 {
     text-align: center;
-    color: rgb(228, 223, 223);
+    color: rgba(228, 223, 223, 0.729);
     font-family: cursive;
     margin-bottom: 40px;
 }
