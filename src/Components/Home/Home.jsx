@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactTyped } from 'react-typed'
-import Sphere from 'E:/portfolioo/src/assets/1-unscreen.gif'
+import Sphere from '../../assets/1-unscreen.gif'
 import './Home.css'
 
 const Home = () => {
