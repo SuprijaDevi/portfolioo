@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-image: linear-gradient(to bottom right, #000, #14213d);
+    /* background-image: linear-gradient(to bottom right, #000, #14213d); */
+    background-color: black;
 }
 .cursor {
     position: fixed;

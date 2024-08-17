@@ -1,26 +1,28 @@
 .home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin-bottom: 70px;
-    text-align: center; 
+    padding: 50px;
+    text-align: center;
 }
 
 .gif-image {
-    max-width: 150%;
+    max-width: 50%;
     height: auto;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    order: 2;
 }
 
 .animated-typing {
-    font-family: 'Courier New'; 
+    font-family: 'Courier New';
     font-size: 3.5em;
-    background: linear-gradient(90deg, #FFF5E1, #FF6969, #dc2757, #2450ef);
+    /* background: linear-gradient(90deg, #FFF5E1, #FF6969, #dc2757, #2450ef); */
+    background: linear-gradient(90deg, #FFF5E1, #67C6E3, #378CE7, #2450ef);
     background-clip: text;
     color: transparent;
     display: inline-block;
+    order: 1;
 }
 
 @media (min-width: 768px) {
@@ -28,15 +30,20 @@
         flex-direction: row;
     }
     .animated-typing {
-        font-size: 3.5em; 
+        font-size: 3.5em;
     }
 }
 
 @media (max-width: 767px) {
+    .home {
+        flex-direction: column;
+    }
     .animated-typing {
         font-size: 2.0em;
+        order: 1;
     }
     .gif-image {
         max-width: 60%; 
+        order: 2;
     }
 }

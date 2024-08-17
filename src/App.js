@@ -38,10 +38,10 @@ function App() {
         <>
           <Navbar />
           <Home />
-          <About />
+          {/* <About />
           <Projects />
           <Achieve />
-          <Contact />
+          <Contact /> */}
           <motion.div 
             className='cursor'
             variants={variants}
@@ -54,3 +54,17 @@ function App() {
 }
 
 export default App
+
+// import React from 'react'
+// import CRM from './Components/CRM/crm'
+
+// export default function App() {
+//   return (
+//     <div className='App'>
+//       <CRM />
+//     </div>
+//   )
+// }
+
+
+

@@ -1,26 +1,27 @@
-import React from 'react'
-import { ReactTyped } from 'react-typed'
-import Sphere from '../../assets/1-unscreen.gif'
-import './Home.css'
+import React from 'react';
+import { ReactTyped } from 'react-typed';
+import Me from '../../assets/Untitled_design__2_-removebg-preview.png';
+import './Home.css';
 
 const Home = () => {
   return (
     <div className='home' id='homee'>
-      <img src={Sphere} className="gif-image" alt="Animated sphere"></img>
+      <img src={Me} className="gif-image" alt="Animated sphere"></img>
       <div className='animated-typing'>
         <ReactTyped
-          strings={[
-            "I'm SUPRIJA DEVI ",
-            "I'm a Frontend Developer.",
-            "I love coding.",
-          ]}
+          strings={["I'm SUPRIJA DEVI S"]}
           typeSpeed={100}
-          backSpeed={60}
-          loop
+          showCursor={false}
+        />
+        <br />
+        <ReactTyped
+          strings={["3rd Year, IT Student"]}
+          typeSpeed={100}
+          startDelay={2000}
         />
       </div>
     </div>
   );
 }
 
-export default Home
+export default Home;
