@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
-import Me from '../../assets/Untitled_design__2_-removebg-preview.png';
+import Me from '../../assets/Untitled_design__3_-removebg-preview.png';
 import './Home.css';
 
 const Home = () => {

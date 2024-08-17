@@ -12,12 +12,12 @@
     height: auto;
     margin-bottom: 20px;
     order: 2;
+    max-height: 100%;
 }
 
 .animated-typing {
     font-family: 'Courier New';
     font-size: 3.5em;
-    /* background: linear-gradient(90deg, #FFF5E1, #FF6969, #dc2757, #2450ef); */
     background: linear-gradient(90deg, #FFF5E1, #67C6E3, #378CE7, #2450ef);
     background-clip: text;
     color: transparent;
@@ -47,3 +47,6 @@
         order: 2;
     }
 }
+
+/* background: linear-gradient(90deg, #FFF5E1, #FF6969, #dc2757, #2450ef); */
+
