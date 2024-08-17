@@ -9,7 +9,7 @@ const Home = () => {
       <img src={Me} className="gif-image" alt="Animated sphere"></img>
       <div className='animated-typing'>
         <ReactTyped
-          strings={["I'm SUPRIJA DEVI S"]}
+          strings={["Hi! I'm SUPRIJA DEVI S"]}
           typeSpeed={100}
           showCursor={false}
         />
