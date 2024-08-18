@@ -38,8 +38,8 @@ function App() {
         <>
           <Navbar />
           <Home />
-          {/* <About />
-          <Projects />
+          <About />
+          {/* <Projects />
           <Achieve />
           <Contact /> */}
           <motion.div 
