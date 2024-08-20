@@ -46,14 +46,14 @@ const About = () => {
             <div className='skills'>
               <div className='skill-item'>HTML</div>
               <div className='skill-item'>CSS</div>
-              <div className='skill-item'>React.js</div>
+              <div className='skill-item'>Bootstrap</div>
+              <div className='skill-item'>React js</div>
               <div className='skill-item'>SQL</div>
-              <div className='skill-item'>Java</div>
+              <div className='skill-item'>Spring Boot</div>
               <div className='skill-item'>C++</div>
+              <div className='skill-item'>Java</div>
               <div className='skill-item'>DSA</div>
               <div className='skill-item'>Agile</div>
-              <div className='skill-item'>Bootstrap</div>
-              <div className='skill-item'>Spring Boot</div>
               <div className='skill-item'>Testing</div>
               <div className='skill-item'>AWS</div>
             </div>
