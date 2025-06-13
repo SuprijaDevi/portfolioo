@@ -1,27 +1,15 @@
-import React from 'react';
-import { ReactTyped } from 'react-typed';
-import Me from '../../assets/Untitled_design__3_-removebg-preview.png';
+import React, { useEffect, useRef } from 'react';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className='home' id='homee'>
-      <img src={Me} className="gif-image" alt="Animated sphere"></img>
-      <div className='animated-typing'>
-        <ReactTyped
-          strings={["Hi! I'm SUPRIJA DEVI S"]}
-          typeSpeed={100}
-          showCursor={false}
-        />
-        <br />
-        <ReactTyped
-          strings={["3rd Year, IT Student"]}
-          typeSpeed={100}
-          startDelay={2000}
-        />
+      <div className='home-content'>
+        <h1>Hello, I'm Suprija Devi</h1>
+        <p>I am FullStack Developer!!!</p>
       </div>
     </div>
   );
-}
+};
 
 export default Home;
