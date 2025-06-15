@@ -10,24 +10,44 @@
 }
 
 .home-content {
+    margin-bottom: 170px;
     position: relative;
+    font-size: 46px;
     z-index: 1;
     color: white;
-    font-family: 'Trebuchet MS';
-    text-align: center;
+    font-family: 'Segoe UI';
     animation: fadeIn 2s ease-in;
 }
 
-.home-content h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+.social-icons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
-
-.home-content p {
+  
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #4b92f5;
+    border-radius: 50%;
+    color: #4b92f5;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 0.3s ease;
     font-size: 20px;
 }
-
-
+  
+.social-icons a:hover {
+    color: white;
+    border-color: white;
+    transform: scale(1.1);
+}
+  
 @keyframes fadeIn {
     0% { opacity: 0; transform: translateY(20px); }
     100% { opacity: 1; transform: translateY(0); }

@@ -17,7 +17,7 @@ function App() {
       ) : (
         <>
           <HeroSection />
-          {/* <About /> */}
+          <About />
           {/* <Projects />
           <Achieve />
           <Contact /> */}
