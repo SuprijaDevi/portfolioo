@@ -18,9 +18,9 @@ function App() {
         <>
           <HeroSection />
           <About />
-          {/* <Projects />
-          <Achieve />
-          <Contact /> */}
+          <Projects />
+          {/* <Achieve /> */}
+          {/* <Contact /> */}
         </>
       )}
     </div>
