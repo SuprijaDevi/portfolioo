@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import Samadhan from '../../assets/samadhanmithra.png';
 import ATS from '../../assets/ats.png';
@@ -6,6 +6,7 @@ import TicTacToe from '../../assets/tic-tac-toe.png';
 import './Projects.css';
 
 function Projects() {
+  const [isFlipped, setIsFlipped] = useState(false);
   const projectData = [
     {
       id: 1,
@@ -54,6 +55,10 @@ function Projects() {
           drawShadow={true}
           showCover={true}
           size="stretch"
+          onFlip={(e) => {
+            setIsFlipped(e.data > 0);
+          }}
+          className={`flipbook ${isFlipped ? 'flipped' : ''}`}
         >
           {/* Cover Page */}
           <div className="page" style={{ background: 'transparent' }}>
@@ -98,7 +103,7 @@ function Projects() {
           {/* Back Cover */}
           <div className="page">
             <div className="page-content cover">
-              <h2>End of Album!</h2>
+              <h1>End of Album!</h1>
             </div>
           </div>
         </HTMLFlipBook>
