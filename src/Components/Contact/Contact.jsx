@@ -10,8 +10,11 @@ const Contact = () => {
     <div className='contact' id='contactt'>
       <div className='contact-content'>
         <h2>Let's Collaborate, say Hello - I'm just a Message Away!</h2>
+        <a href='mailto:suprijadevi@gmail.com'>
+          <h3>suprijadevi@gmail.com<span>📩</span></h3>
+        </a>
       </div>
-      <div className='icons'>
+      {/* <div className='icons'>
         <a href="https://www.linkedin.com/in/suprija-devi-s-5aa06625a/" target="_blank" rel="noopener noreferrer" className='linked-icon'>
           <FaLinkedin />
         </a>
@@ -24,7 +27,7 @@ const Contact = () => {
         <a href="https://www.instagram.com/_suprija_" target="_blank" rel="noopener noreferrer" className='insta-icon'>
           <AiFillInstagram />
         </a>
-      </div>
+      </div> */}
     </div>
   )
 }

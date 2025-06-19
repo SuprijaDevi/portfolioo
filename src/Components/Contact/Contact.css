@@ -8,17 +8,39 @@
     margin-bottom: 10px;
     box-shadow: 0 0 10px;
 }
+
 .contact-content h2 {
     text-align: center;
     color: rgba(228, 223, 223, 0.729);
-    font-family: cursive;
-    margin-bottom: 40px;
+    font-family: 'Courier New';
 }
+
+.contact-content h3 {
+    text-align: center;
+    color: #4b92f5;
+    font-family: 'Courier New';
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-content h3:hover {
+    color: rgba(228, 223, 223, 0.729);
+}
+
+h3 span {
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .icons {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .icons a {
     display: flex;
     align-items: center;
@@ -31,24 +53,30 @@
     text-decoration: none;
     transition: transform 0.3s, background-color 0.3s;
 }
+
 .linked-icon {
     color: blue;
     background-color: white;
 }
+
 .git-icon {
     color: black;
     background-color: white;
 }
+
 .mail-icon {
     color: orangered;
     background-color: white;
 }
+
 .insta-icon {
     color: rgb(138, 34, 97);
     background-color: white;
 }
+
 .icons a:hover {
     color: white;
     transform: scale(1.1);
     background-color: rgba(255, 255, 255, 0.2);
 }
+

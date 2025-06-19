@@ -3,6 +3,12 @@ import My_Photo from '../../assets/my photo.jpg';
 import Resume from '../../assets/SUPRIJA_DEVI_RESUME.pdf';
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaJava, FaAws } from 'react-icons/fa';
 import { SiSpringboot, SiCplusplus, SiMysql, SiTestinglibrary, SiAgile, SiThealgorithms } from 'react-icons/si';
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
 import './About.css';
 
 const About = () => {
@@ -52,7 +58,52 @@ const About = () => {
             <div className='skill-item'><FaAws style={{ color: '#FF9900' }} className='icon' /> AWS</div>
           </div>
 
-          <h3 className='tab-title'>Coding platform</h3>
+          <h3 className='tab-title'>Achievements</h3>
+          <div className='timeline-box'>
+            <Timeline position="right" sx={{ ml: -140 }}>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="primary" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ fontFamily: 'Courier New', fontSize: '18px', color: 'white' }}>
+                  IIT BOMBAY FOSSEE MAPATHON (2023) – <strong>Winner🏆</strong>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="secondary" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ fontFamily: 'Courier New', fontSize: '18px', color: 'white' }}>
+                  MSME WOMENS HACKATHON (2023) – <strong>Finalist🏅</strong>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="primary" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent sx={{ fontFamily: 'Courier New', fontSize: '18px', color: 'white' }}>
+                  SMART INDIA HACKATHON (2024) – <strong>Top 5 Finalist🏆</strong>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="secondary" />
+                </TimelineSeparator>
+                <TimelineContent
+                  sx={{
+                    fontFamily: 'Courier New', fontSize: '18px', color: 'white'
+                  }}
+                >
+                  IIT BOMBAY FOSSEE MAPATHON (2025) – <strong>Notable Participants🏅</strong>
+                </TimelineContent>
+              </TimelineItem>
+            </Timeline>
+          </div>
+
+          <h3 className='coding-title'>Coding platform</h3>
           <div className='practice'>
             <div className='practice-item'>
               <a href='https://www.naukri.com/code360/home' target='_blank' rel='noopener noreferrer'>Coding Ninjas</a>

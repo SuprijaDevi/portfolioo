@@ -26,7 +26,7 @@ const Home = () => {
           <a href='https://www.linkedin.com/in/suprija-devi-s-5aa06625a/' target='_blank' rel='noreferrer'><FaLinkedin /></a>
           <a href='https://github.com/SuprijaDevi/' target='_blank' rel='noreferrer'><FaGithub /></a>
           <a href='mailto:someone@example.com'><FaEnvelope /></a>
-          <a href='https://www.instagram.com/suprija?igsh=MWI2cGQyazVhdmoyaA==' target='_blank' rel='noreferrer'><FaInstagram /></a>
+          <a href='https://www.instagram.com/_suprija_' target='_blank' rel='noreferrer'><FaInstagram /></a>
         </div>
       </div>
     </div>

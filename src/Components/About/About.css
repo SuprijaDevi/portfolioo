@@ -52,13 +52,14 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .education-content ul li {
+.education-content ul li {
     margin-bottom: 10px;
     font-family: 'Courier New';
     font-size: large;
-  }
+    color: #fff;
+}
 
 .skills {
     display: flex;
@@ -82,6 +83,18 @@
   
 .icon {
     font-size: 20px;
+}
+
+.timeline-box .MuiTimeline-root {
+    padding: 0%;
+}
+
+.coding-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px 0;
+    color: #4b92f5;
+    margin-top: -10px;
 }
 
 .practice {

@@ -6,6 +6,8 @@
     text-align: center;
     /* background-color: rgba(255, 255, 255, 0.118); */
     margin-bottom: 70px;
+    overflow: hidden;
+    position: relative;
 }
 .project-title h2 {
     text-transform: uppercase;
@@ -20,12 +22,20 @@
 
 .flipbook {
     transition: all 0.5s ease-in-out;
-    transform: translate(-25%);
+    transform: translateX(-25%);
   }
   
-.flipped {
+  .flipbook.shift-right {
     transform: translateX(0%);
-}
+  }
+  
+  .flipbook.center {
+    transform: translateX(-25%);
+  }
+  
+  .flipbook.right-end {
+    transform: translateX(25%);
+  }
 
 .project-book {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);

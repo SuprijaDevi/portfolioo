@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import Samadhan from '../../assets/samadhanmithra.png';
 import ATS from '../../assets/ats.png';
@@ -6,7 +6,10 @@ import TicTacToe from '../../assets/tic-tac-toe.png';
 import './Projects.css';
 
 function Projects() {
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [isLastPage, setIsLastPage] = useState(false);
+  const [positionClass, setPositionClass] = useState(false);
+  const bookRef = useRef();
+
   const projectData = [
     {
       id: 1,
@@ -42,6 +45,22 @@ function Projects() {
     }
   ];
 
+  const handleFlip = (e) => {
+    const currentPage = e.data;
+    const totalPages = bookRef.current.pageFlip().getPageCount();
+  
+    if (currentPage === 0) {
+      setPositionClass('center');
+      setIsLastPage(false);
+    } else if (currentPage === totalPages - 1) {
+      setPositionClass('right-end'); 
+      setIsLastPage(true);
+    } else {
+      setPositionClass('shift-right');
+      setIsLastPage(false);
+    }
+  };
+
   return (
     <div className="project" id="projectt">
       <div className="project-title">
@@ -49,16 +68,15 @@ function Projects() {
       </div>
       <div className="project-book">
         <HTMLFlipBook
-          width={370}
-          height={320}
+          ref={bookRef}
+          width={320}
+          height={280}
           maxShadowOpacity={0.5}
           drawShadow={true}
           showCover={true}
           size="stretch"
-          onFlip={(e) => {
-            setIsFlipped(e.data > 0);
-          }}
-          className={`flipbook ${isFlipped ? 'flipped' : ''}`}
+          onFlip={handleFlip}
+          className={`flipbook ${positionClass} ${isLastPage ? 'last-page' : ''}`}
         >
           {/* Cover Page */}
           <div className="page" style={{ background: 'transparent' }}>
@@ -86,7 +104,7 @@ function Projects() {
                   <div className="project-info">
                     <h2 className="project-name">{project.title}</h2>
                     <p className="project-description">{project.description}</p>
-                    <p className='project-date'>{project.createdDate}</p>
+                    <p className='project-date'>Created: {project.createdDate}</p>
                     <p className="project-gitlink">
                       GitHub: {project.gitLink && (
                         <a href={project.gitLink} target="_blank" rel="noopener noreferrer">

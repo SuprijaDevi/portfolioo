@@ -17,7 +17,7 @@ ul {
     list-style: none;
     text-align: right;
 }
-ul li {
+.navbar ul li {
     display: inline-block;
     margin: 10px 20px;
     font-size: 18px;
