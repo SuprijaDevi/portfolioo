@@ -11,8 +11,17 @@ const HeroSection = () => {
     const ctx = canvas.getContext('2d');
   
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      const dpr = window.devicePixelRatio || 1;
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+    
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
+    
+      canvas.style.width = `${width}px`;
+      canvas.style.height = `${height}px`;
+    
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0); // scale drawing for high-DPI screens
     };
   
     resizeCanvas();
