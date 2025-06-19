@@ -25,7 +25,8 @@
 .img-box {
     flex: 1;
     text-align: right;
-    margin-top: -180px;
+    align-self: flex-start;
+    margin-top: 40px;
 }
 
 .about-text {
@@ -52,6 +53,7 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
   
 .education-content ul li {
@@ -173,15 +175,21 @@
         text-align: center;
     }
     .about-text p {
-        font-size: medium;
-        margin-top: 20px; 
+        font-size: large;
+        margin-top: -10px; 
     }
     .skill-item,
     .practice-item {
         margin: 0 5px 10px 0;
     }
     .education-content ul {
-        /* padding-left: 20px; */
-        text-align: left;
-      }
+        text-align: start;
+    }
+    .timeline-box .MuiTimeline-root {
+        padding: 0%;
+        margin-left: -350px;
+    }
+    .coding-title {
+        margin-top: 10px;
+    }
 }

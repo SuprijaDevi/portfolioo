@@ -12,7 +12,7 @@
     font-size: 24px;
     font-weight: bold;
 }
-ul {
+.navbar ul {
     flex: 1;
     list-style: none;
     text-align: right;
@@ -26,11 +26,11 @@ ul {
     font-family: 'Trebuchet MS';
     transition: box-shadow 0.3s ease-in-out;
 }
-ul li a {
+.navbar ul li a {
     text-decoration: none;
     color: inherit;
 }
-ul li a:hover {
+.navbar ul li a:hover {
     text-decoration: none;
     color: #4b92f5;
     box-shadow: 0 3px;
@@ -39,22 +39,21 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .navbar {
         flex-direction: column;
         align-items: center;
-        padding: 15px 5%;
     }
-    ul {
+    .navbar ul {
         width: 100%;
         padding: 0;
     }
-    ul li {
+    .navbar ul li {
         display: block;
         margin: 10px 0;
         text-align: center;
     }
-    ul li:hover {
+    .navbar ul li:hover {
         box-shadow: none;
     }
 }

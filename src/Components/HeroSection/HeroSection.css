@@ -19,13 +19,15 @@
   z-index: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero-section {
-    padding-top: 60px; 
+    padding-top: 10px; 
   }
 
   .hero-content {
     padding: 10px;
+    text-align: center;
+    align-items: center;
   }
 
   canvas.hero-canvas {
