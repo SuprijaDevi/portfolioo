@@ -69,12 +69,12 @@ function Projects() {
       <div className="project-book">
         <HTMLFlipBook
           ref={bookRef}
-          width={320}
-          height={280}
+          width={600}
+          height={600}
           maxShadowOpacity={0.5}
           drawShadow={true}
           showCover={true}
-          size="stretch"
+          size="fixed"
           onFlip={handleFlip}
           className={`flipbook ${positionClass} ${isLastPage ? 'last-page' : ''}`}
         >

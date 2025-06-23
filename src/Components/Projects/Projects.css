@@ -1,6 +1,7 @@
 .project {
     /* border: 3px solid white; */
-    width: 90%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -20,22 +21,26 @@
     transition: all 0.5s ease-in-out;
 }
 
+.stf__parent {
+    overflow: visible !important;
+}
+
 .flipbook {
     transition: all 0.5s ease-in-out;
-    transform: translateX(-25%);
-  }
+    transform: translateX(-13%);
+}
   
   .flipbook.shift-right {
-    transform: translateX(0%);
-  }
+    transform: translateX(12%);
+}
   
   .flipbook.center {
-    transform: translateX(-25%);
-  }
+    transform: translateX(-13%);
+}
   
   .flipbook.right-end {
-    transform: translateX(25%);
-  }
+    transform: translateX(35%);
+}
 
 .project-book {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -142,4 +147,16 @@
   
 .project-gitlink a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .flipbook {
+        transition: all 0.5s ease-in-out;
+        transform: translateX(0%);
+    }
+    .flipbook.shift-right,
+    .flipbook.center,
+    .flipbook.right-end {
+        transform: translateX(0%);
+    }
 }
