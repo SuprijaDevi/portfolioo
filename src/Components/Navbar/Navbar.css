@@ -3,21 +3,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px auto;
-    margin-bottom: 100px;
+    margin: 20px auto 100px;
+    position: relative;
 }
+  
 .nav-name {
     color: #4b92f5;
     font-family: 'Trebuchet MS';
     font-size: 24px;
     font-weight: bold;
 }
-.navbar ul {
+  
+.navbar ul.nav-links {
     flex: 1;
     list-style: none;
     text-align: right;
 }
-.navbar ul li {
+  
+.navbar ul.nav-links li {
     display: inline-block;
     margin: 10px 20px;
     font-size: 18px;
@@ -26,34 +29,54 @@
     font-family: 'Trebuchet MS';
     transition: box-shadow 0.3s ease-in-out;
 }
+  
 .navbar ul li a {
     text-decoration: none;
     color: inherit;
 }
+  
 .navbar ul li a:hover {
-    text-decoration: none;
     color: #4b92f5;
-    box-shadow: 0 3px;
 }
-html {
-    scroll-behavior: smooth;
+  
+.toggle-menu {
+    display: none;
+    color: #fff;
 }
-
+  
 @media (max-width: 767px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
+    .toggle-menu {
+      display: block;
+      font-size: 28px;
+      cursor: pointer;
+      color: #fff;
     }
-    .navbar ul {
-        width: 100%;
-        padding: 0;
+  
+    .nav-links {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      background: #111;
+      flex-direction: column;
+      text-align: center;
+      display: none;
+      padding: 10px 0;
+      border-radius: 0 0 10px 10px;
+      z-index: 1;
     }
-    .navbar ul li {
-        display: block;
-        margin: 10px 0;
-        text-align: center;
+  
+    .nav-links.active {
+      display: flex;
     }
-    .navbar ul li:hover {
-        box-shadow: none;
+  
+    .nav-links li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .nav-links li:hover {
+      box-shadow: none;
     }
 }
+  
