@@ -70,11 +70,16 @@ function Projects() {
         <HTMLFlipBook
           ref={bookRef}
           width={600}
-          height={600}
+          height={650}
           maxShadowOpacity={0.5}
           drawShadow={true}
           showCover={true}
-          size="fixed"
+          size="stretch"
+          minWidth={320}
+          maxWidth={600}
+          minHeight={700}
+          maxHeight={600}
+          mobileScrollSupport={true}
           onFlip={handleFlip}
           className={`flipbook ${positionClass} ${isLastPage ? 'last-page' : ''}`}
         >
