@@ -1,21 +1,19 @@
-import React, { useState, useRef } from 'react';
-import HTMLFlipBook from 'react-pageflip';
+import { React } from 'react';
+import Compus from '../../assets/compus.png'
 import Samadhan from '../../assets/samadhanmithra.png';
 import ATS from '../../assets/ats.png';
 import TicTacToe from '../../assets/tic-tac-toe.png';
+import { FiGithub } from "react-icons/fi";
 import './Projects.css';
 
 function Projects() {
-  const [isLastPage, setIsLastPage] = useState(false);
-  const [positionClass, setPositionClass] = useState(false);
-  const bookRef = useRef();
 
   const projectData = [
     {
       id: 1,
       title: "CAMPUS NAVIGATION SYSTEM",
       description: "An interactive college navigation system built using React, Spring Boot, and PostgreSQL. It allows students, faculty, and visitors to easily locate blocks, departments, and other facilities on campus using a searchable map interface. Users can search for places, view descriptions, and get guided navigation within the campus. Admins can manage map data through a secure dashboard. This system improves campus accessibility and offers a user-friendly way to explore the college layout.",
-      image: "",
+      image: Compus,
       createdDate: "08/2024",
       gitLink: "https://github.com/SuprijaDevi/Compus-CNS"
     },
@@ -45,93 +43,44 @@ function Projects() {
     }
   ];
 
-  const handleFlip = (e) => {
-    const currentPage = e.data;
-    const totalPages = bookRef.current.pageFlip().getPageCount();
-  
-    if (currentPage === 0) {
-      setPositionClass('center');
-      setIsLastPage(false);
-    } else if (currentPage === totalPages - 1) {
-      setPositionClass('right-end'); 
-      setIsLastPage(true);
-    } else {
-      setPositionClass('shift-right');
-      setIsLastPage(false);
-    }
-  };
-
   return (
     <div className="project" id="projectt">
-      <div className="project-title">
-        <h2>My Works</h2>
-      </div>
-      <div className="project-book">
-        <HTMLFlipBook
-          ref={bookRef}
-          width={600}
-          height={650}
-          maxShadowOpacity={0.5}
-          drawShadow={true}
-          showCover={true}
-          size="stretch"
-          minWidth={320}
-          maxWidth={600}
-          minHeight={700}
-          maxHeight={600}
-          mobileScrollSupport={true}
-          onFlip={handleFlip}
-          className={`flipbook ${positionClass} ${isLastPage ? 'last-page' : ''}`}
-        >
-          {/* Cover Page */}
-          <div className="page" style={{ background: 'transparent' }}>
-            <div className="page-content cover">
-              <img 
-                src="https://img.freepik.com/premium-vector/project-management-marketing-analysis-development-online-successful-strategy-motivation_501813-2156.jpg?semt=ais_hybrid&w=740" 
-                alt="Album Cover" 
-                className="project-logo" 
-              />
-              <h2>Project Album</h2>
-              <p>Flip through my creations!</p>
-            </div>
-          </div>
-
-          {/* Project Pages */}
-          {projectData.map((project) => (
-            <div className="page" key={project.id}>
-              <div className="page-content">
-                <div className="project-container">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="project-image" 
-                  />
-                  <div className="project-info">
-                    <h2 className="project-name">{project.title}</h2>
-                    <p className="project-description">{project.description}</p>
-                    <p className='project-date'>Created: {project.createdDate}</p>
-                    <p className="project-gitlink">
-                      GitHub: {project.gitLink && (
-                        <a href={project.gitLink} target="_blank" rel="noopener noreferrer">
-                          {project.gitLink}
-                        </a>
-                      )}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-
-          {/* Back Cover */}
-          <div className="page">
-            <div className="page-content cover">
-              <h1>End of Album!</h1>
-            </div>
-          </div>
-        </HTMLFlipBook>
-      </div>
+    <div className="project-title">
+      <h2>Projects</h2>
     </div>
+
+    <div className="project-grid">
+      {projectData.map((project) => (
+        <div className="project-card" key={project.id}>
+          
+          <img
+            src={project.image}
+            alt={project.title}
+            className="project-card-image"
+          />
+
+          <div className="project-overlay">
+            <p>{project.description}</p>
+            <p>Created Date - {project.createdDate}</p>
+          </div>
+
+          <div className="project-card-content">
+            <h3>{project.title}</h3>
+
+            <a
+              href={project.gitLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+            >
+              <FiGithub />
+            </a>
+          </div>
+
+        </div>
+      ))}
+    </div>
+  </div>
   );
 }
 

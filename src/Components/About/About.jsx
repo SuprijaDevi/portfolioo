@@ -1,8 +1,8 @@
 import React from 'react';
-import My_Photo from '../../assets/my photo.jpg';
-import Resume from '../../assets/SUPRIJA_DEVI_RESUME.pdf';
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaJava, FaAws } from 'react-icons/fa';
-import { SiSpringboot, SiCplusplus, SiMysql, SiTestinglibrary, SiAgile, SiThealgorithms } from 'react-icons/si';
+import My_Photo from '../../assets/mee.jpeg';
+import Resume from '../../assets/Resume.pdf';
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaAngular, FaJava, FaAws } from 'react-icons/fa';
+import { SiSpringboot, SiCplusplus, SiMysql, SiTestinglibrary, SiThealgorithms } from 'react-icons/si';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div className='row'>
         <div className='img-box'>
-          <img src={My_Photo} alt='about img'/>
+          <img src={My_Photo} alt='about img' className='about-image'/>
           <div className='resume-box'>
             <a href={Resume} download>My Resume📄</a>
           </div>
@@ -47,15 +47,32 @@ const About = () => {
             <div className='skill-item'><FaHtml5 style={{ color: '#e44d26' }} className='icon' /> HTML</div>
             <div className='skill-item'><FaCss3Alt style={{ color: '#264de4' }} className='icon' /> CSS</div>
             <div className='skill-item'><FaBootstrap style={{ color: '#7911f4' }} className='icon' /> Bootstrap</div>
-            <div className='skill-item'><FaReact style={{ color: '#61DBFB' }} className='icon' /> React.js</div>
+            <div className='skill-item'><FaReact style={{ color: '#61DBFB' }} className='icon' /> React</div>
+            <div className='skill-item'><FaAngular style={{ color: '#C60836' }} className='icon' /> Angular</div>
             <div className='skill-item'><SiMysql style={{ color: '#00758f' }} className='icon' /> SQL</div>
             <div className='skill-item'><SiSpringboot style={{ color: '#6DB33F' }} className='icon' /> Spring Boot</div>
             <div className='skill-item'><SiCplusplus style={{ color: '#004482' }} className='icon' /> C++</div>
             <div className='skill-item'><FaJava style={{ color: '#f89820' }} className='icon' /> Java</div>
             <div className='skill-item'><SiThealgorithms style={{ color: '#f0db4f' }} className='icon' /> DSA</div>
-            {/* <div className='skill-item'><SiAgile className='icon' /> Agile</div> */}
             <div className='skill-item'><SiTestinglibrary style={{ color: '#e3342f' }} className='icon' /> Testing</div>
             <div className='skill-item'><FaAws style={{ color: '#FF9900' }} className='icon' /> AWS</div>
+          </div>
+
+          <h3 className='tab-title'>Experience</h3>
+          <div className='education-content'>
+            <ul>
+              <li>
+                <strong>📍 <span>Hitasoft Technology, Madurai</span> - Web Development Intern (Jul 2024)</strong><br />
+                Worked on responsive frontend development using HTML, CSS, Bootstrap, and JavaScript. 
+                Implemented backend CRUD operations using PHP and MySQL.
+              </li>
+
+              <li style={{ marginTop: '15px' }}>
+                <strong>📍 <span>Duratech Solutions, Coimbatore</span> - Java Full Stack Developer Intern (May 2025)</strong><br />
+                Contributed to the development and testing of a Learning Management System using Java Full Stack technologies.
+                Performed manual testing to improve application functionality and reliability.
+              </li>
+            </ul>
           </div>
 
           <h3 className='tab-title'>Achievements</h3>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './Home.css';
-import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaTelegramPlane, FaInstagram } from 'react-icons/fa';
 
 const Home = () => {
   const [text] = useTypewriter({
@@ -25,8 +25,8 @@ const Home = () => {
         <div className='social-icons'>
           <a href='https://www.linkedin.com/in/suprija-devi-s-5aa06625a/' target='_blank' rel='noreferrer'><FaLinkedin /></a>
           <a href='https://github.com/SuprijaDevi/' target='_blank' rel='noreferrer'><FaGithub /></a>
-          <a href='mailto:someone@example.com'><FaEnvelope /></a>
-          <a href='https://www.instagram.com/_suprija_' target='_blank' rel='noreferrer'><FaInstagram /></a>
+          <a href='https://t.me/SuprijaDevi' rel='noreferrer' target='_blank' ><FaTelegramPlane /></a>
+          <a href='https://www.instagram.com/_.suprija.__' target='_blank' rel='noreferrer'><FaInstagram /></a>
         </div>
       </div>
     </div>
