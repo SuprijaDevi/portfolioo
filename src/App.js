@@ -1,6 +1,5 @@
 import './App.css'
 import About from './Components/About/About'
-import Achieve from './Components/Achievements/Achieve'
 import Projects from './Components/Projects/Projects'
 import Contact from './Components/Contact/Contact'
 import { useState } from 'react'
@@ -19,7 +18,6 @@ function App() {
           <HeroSection />
           <About />
           <Projects />
-          {/* <Achieve /> */}
           <Contact />
         </>
       )}
@@ -28,17 +26,6 @@ function App() {
 }
 
 export default App
-
-// import React from 'react'
-// import CRM from './Components/CRM/crm'
-
-// export default function App() {
-//   return (
-//     <div className='App'>
-//       <CRM />
-//     </div>
-//   )
-// }
 
 
 
